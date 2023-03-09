@@ -1,8 +1,114 @@
 /* Place CSS styles here */
 body {
     background-color: RGB(22, 44, 58);
-    font-family: 'Abril Fatface', cursive;
     font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Yeseva One', cursive;
 }
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    color: RGB(219, 169, 136);
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: RGB(219, 169, 136);
+}
+
+.click {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: RGB(217, 124, 80);
+    background-color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all .25s ease;
+  }
+  
+  .click:hover {
+    color: white;
+    background-color: RGB(217, 124, 80);
+  }
+  
+  /* :focus occurs when you tab into an element */
+  .drip {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: RGB(217, 124, 80);
+    background-color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all .25s ease;
+  }
+  .drip:focus {
+    box-shadow: 0 0 0 4px rgb(255, 152, 67);
+  }
+
+  .drop {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: RGB(217, 124, 80);
+    background-color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all .25s ease;
+  }
+
+ .drop:disabled {
+    background-color: white;
+    color: RGB(217, 124, 80);
+    opacity: 1;
+ }
+
+ .zip {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+ }
+
+ .zip:hover {
+    color: rgb(255, 152, 67);
+ }
+
+ .dip {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+ }
+
+ .dip:focus {
+    box-shadow: 0 0 0 4px rgb(255, 152, 67);
+ }
+
+ .whip {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+ }
+
+ .whip:disabled {
+    background-color: white;
+    color: RGB(217, 124, 80);
+    opacity: 1;
+ }
+
+ .tip {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+ }
+ 
+ .tip:visited {
+    color: white;
+    text-decoration-color: RGB(217, 124, 80);
+ }
+
+ 
