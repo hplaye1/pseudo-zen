@@ -36,7 +36,7 @@
       <div>
         <button class= "click">Primary</button>
         <button class= "drip">Secondary</button>
-        <button class= "drop">Error</button>
+        <button disabled class= "drop">Error</button>
       </div>
     </div>
     <div>
@@ -44,7 +44,7 @@
       <div>
         <a class= "zip" href="https://www.pagecloud.com/blog/best-google-fonts-pairings">Page Cloud</a>
         <a class= "dip" href="https://www.lsu.edu/">LSU</a>
-        <a class= "whip" href="#">Google</a>
+        <a disabled class= "whip" href="#">Google</a>
         <a class= "tip" href="https://www.youtube.com/">Youtube</a>
 
       </div>
@@ -55,9 +55,16 @@
         <label class="apple" for="name">Full Name:</label>
         <input class="pear" type="text" id="name" name="name" />
         <label class="pineapple" for="comments">Comments:</label>
-        <textarea class="plum" id="comments" name="comments"></textarea>
+        <textarea disabled class="plum" id="comments" name="comments"></textarea>
 
-        <button>Save</button>
+        <button class= "lemon">Choose File</button>
+
+       
+        <input type="tel"
+               name="phone"
+               minLength="6" maxLength="6"
+               placeholder="It must be 9 digits">
+
       </form>
     </div>
   </main>

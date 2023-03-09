@@ -110,5 +110,64 @@ h2 {
     color: white;
     text-decoration-color: RGB(217, 124, 80);
  }
+.apple {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
 
- 
+.pear:hover {
+    color: white;
+    background-color: RGB(217, 124, 80);
+}
+
+.pear:focus {
+    box-shadow: 0 0 0 4px lightblue;
+}
+
+.pineapple {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.plum:disabled {
+     background-color: white;
+    opacity: 1;
+}
+
+.lemon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: RGB(217, 124, 80);
+    background-color: black;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all .25s ease;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.lemon:focus {
+    box-shadow: 0 0 0 4px rgb(255, 152, 67);
+}
+
+
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: rgb(255, 153, 0);
+}
+
+input:hover {
+    color: white;
+    background-color: RGB(217, 124, 80);
+}
+
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
