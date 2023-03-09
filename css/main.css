@@ -1,1 +1,8 @@
 /* Place CSS styles here */
+body {
+    background-color: RGB(22, 44, 58);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
